@@ -45,13 +45,13 @@ def merge_sort( arr ):
             # increment through list 
             c +=1
 
-        # while a is less than length of left half increment
+        # while a is less than length of left half, increment
         while a < len(left):
             arr[c] = left[a]
             a += 1
             c += 1
 
-        # while b is less than length of right half increment
+        # while b is less than length of right half, increment
         while b < len(right):
             arr[c] = right[b]
             b += 1
